@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:left;
+}
+
+
+header {
+    background-color:aqua;
+    height: 70px; 
+}
+
+/*Esta es la letra capitular*/
+.firstletter {
+    float: left;
+    font-size: 600%; 
+    line-height: 1; 
+    font-weight: bold; 
+    margin-right: 2 em;
+}
+
+article{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+h1{
+    font-size:xx-large;
+    text-align: center;
+}
+
+h2{
+    font-size:small;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+  }
+
+.imgsec {
+
+    text-align: center;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:25px;
+    padding-bottom:25px;
+  } 
