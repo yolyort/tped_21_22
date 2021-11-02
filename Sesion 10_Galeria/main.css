@@ -1,17 +1,63 @@
 header {
-    background-color:mediumpurple;
+    background-color:chocolate;
+    width: 100%;
+    padding: 1em;
+    text-align:center;
+    color: peachpuff; 
+}
+
+body {
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 section {
-    background-color:lightsteelblue;
+    background-color:wheat;
+}
+
+h2 {
+    font-size:x-large;
+    padding: 1em;
+    color: chocolate;
 }
 
 img {
+        /*La imagen se verá en escala de grises en la galería*/
     width: 33%;
     height: auto;
     filter: saturate(0);
 }
 
 a:hover img {
+    /*La imagen se verá saturada*/
     filter: saturate(1);
 }
+/*La imagen se verá desenfocada*/
+.blur {filter: blur(4px);}
+
+/*La imagen se verá con más brillo*/
+.brightness {filter: brightness(500%);}
+
+/*La imagen se verá con más contraste*/
+.contrast {filter: contrast(180%);}
+
+/*La imagen se verá en escala de grises*/
+.grayscale {filter: grayscale(100%);}
+
+/*La imagen se verá con el tono cambiado*/
+.huerotate {filter: hue-rotate(180deg);}
+
+/*La imagen se verá en negativo*/
+.invert {filter: invert(100%);}
+
+/*La imagen se verá con un porcentaje de transparencia*/
+.opacity {filter: opacity(50%);}
+
+/*La imagen se verá saturada*/
+.saturate {filter: saturate(7);}
+
+/*La imagen se verá en color sepia*/
+.sepia {filter: sepia(100%);}
+
+/*La imagen se verá con sombra debajo*/
+.shadow {filter: drop-shadow(8px 8px 10px black);}
