@@ -1,0 +1,29 @@
+body {
+    
+    text-align:left;
+    background-color:peachpuff;
+    text-shadow: sienna;
+}
+
+header {
+    height: 70px;
+    padding: 1em;
+    background-color: darkgoldenrod;
+    text-align: center; 
+    color: honeydew;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+
+a {
+    font-size:xx-large;
+    text-align:left;
+    color: indianred;
+}
+
+a:hover {
+color:orangered ;
+}
