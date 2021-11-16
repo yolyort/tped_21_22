@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+div {
+    height: 1920px;
+    background-color: antiquewhite;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size:xx-large;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    background-color:steelblue;
+    color: white;
+    position: fixed;
+    z-index: 5;
+}
+
+.Enlace:hover{
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+
+#cabecera {
+    width: 100vw; /* que ocupe el ancho de la pantalla */
+    height: 100vh; /* para que sea cuadrada (igual a width) */
+    background-image: url(imag/fondo.jpg);
+    background-size: contain; 
+    padding: 20vw;
+}
+
+
+#centro {
+    height: 140vh;
+    padding: 15vw;
+}
+
+h1 {
+    color:slategrey;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-style: dotted;
+    border-width: 10px;
+    font-size: 400%;
+}
+
+
+h2 {
+    font-size: 18px;
+    color:steelblue;
+    font-family:cursive;
+    text-align: left;
+}
+
+p {
+    font-size: 24pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black
+}
+
+#pie {
+    height:min-content;
+    background-color:lightblue;
+    padding: 15vw;  
+}
+
+ul {
+    list-style: none;    
+    font-size: 50px;
+    font-weight: 100;
+    padding: 15vw;
+    color: white;
+}
+
+li {
+    padding: 10px;
+}
+
+a.one:link {color: black;}
+a.one:hover {color:crimson;}
+a.one:hover {text-decoration: underline;}
+
+a.two:link {color: black;}
+a.two:hover {text-decoration:line-through;}
+
+.three {display:inline;}
+.three:hover {text-decoration: underline;}
