@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bebas+Neue&family=Cinzel&family=Comforter+Brush&family=Cormorant+Garamond&family=Montserrat:wght@300&family=Righteous&family=Special+Elite&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body    {
+    background-color:aliceblue;
+    max-width: max-content;
+}
+
+header {
+    background-color:aliceblue;
+    color: royalblue;
+    height: 150px;
+    text-align: center;
+    padding: 30px;
+    font-family: 'Special Elite', cursive;
+    font-size: 2em;
+}
+
+.icono  {
+    text-align: end;
+}
+
+section.main {
+    background-color:lightsteelblue;
+    display: flex;
+    flex-flow: column wrap;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+h2{
+    text-align: center;
+    padding:1em;
+}
+
+p{
+    padding: 0,5;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.texto1 {
+    width: 30%;
+    height: fit-content;
+    background-color:white;
+    padding: 10px, 10px, 10px, 10px; 
+    margin-block: 20px; 
+    font-family: 'Bebas Neue', cursive; 
+}
+
+.texto2 {
+    width: 30%;
+    max-height: fit-content;
+    background-color:white;
+    padding: 10px, 10px, 10px, 10px; 
+    margin-block: 20px; 
+    font-family: 'Amatic SC', cursive;   
+}
+
+.texto3 {
+    width: 30%;
+    max-height: fit-content;
+    background-color:white;
+    padding: 10px, 10px, 10px, 10px; 
+    margin-block: 20px; 
+    font-family: 'Montserrat', sans-serif;    
+}
+
+.texto4 {
+    width: 30%;
+    max-height: fit-content;
+    background-color:white;
+    padding: 10px, 10px, 10px, 10px;
+    margin-block: 20px; 
+    font-family: 'Cormorant Garamond', serif; 
+}
+
+.texto5 {
+    width: 30%;
+    max-height: fit-content;
+    background-color:white;
+    padding: 10px, 10px, 10px, 10px; 
+    margin-block: 20px;
+    font-family: 'Cinzel', serif; 
+}
+
+.texto6 {
+    width: 30%;
+    max-height: fit-content;
+    background-color:white;
+    padding: 10px, 10px, 10px, 10px;
+    margin-block: 20px;  
+    font-family: 'Comforter Brush', cursive;
+}
