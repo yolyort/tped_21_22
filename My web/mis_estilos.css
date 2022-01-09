@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bebas+Neue&family=Cinzel&family=Comforter+Brush&family=Cormorant+Garamond&family=Montserrat:wght@300&family=Righteous&family=Special+Elite&display=swap');
+
+/* body{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* header{
+    height: 20vh;
+}
+
+header div{
+    background-color: chartreuse;
+} */
+
+h1  {
+    font-family: 'Bebas Neue', cursive; 
+    text-align: center;
+    color: black;
+    padding:1em;
+    
+   }
+
+h2{
+    font-family: 'Bebas Neue', cursive; 
+    text-align: right;
+    color:red;
+    padding:1em;
+    position: relative;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    text-align:right;
+    color:red;
+    padding:1em;
+}
+
+h4{
+    text-align: center;
+}
+
+section{
+   
+    height: 70vw;
+    background-color:white;
+    padding-left: 15px;
+    padding-right: 15px;
+   
+}
+
+article{
+    
+    height: 70vw;
+    background-color:white;
+
+    padding-left: 10px;
+    padding-right: 10px;  
+}
+
+p{
+    padding: 0,5;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.texto1 {
+   
+    padding: 15px; 
+    margin-block: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4em;
+    text-align: right;
+} 
+
+.texto2 {
+   
+    padding: 15px; 
+    margin-block: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    text-align: right;
+} 
+
+
+/* Carrusel de fotos */
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+  ul {
+      display: inline-block;
+  }
+
+  li{
+      justify-content: right;
+  }
