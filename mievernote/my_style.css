@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header .row {
+    align-content: center;
+    height: 100px;
+}
+
+h1{
+    color:lightseagreen;
+}
+
+a   {
+    color:green;
+    padding: 20px;
+}
+
+li {
+    list-style: none;
+    color: green;
+    display: inline;
+}
+
+#mi_contenedor  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5vw;
+    height: 140 vh;
+    /* overflow: scroll;   */
+}
+
+#my_card    {
+    width: 20vw;
+    min-width: 300px;
+    height: 35vw;
+    min-height: 300px;
+}
+
+/* quito el borde a card */
+.card {
+    border-style: none;
+}
+
+footer{
+    height: 200px;
+}
